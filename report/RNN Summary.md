@@ -2,7 +2,7 @@
 
 (Notion Page)
 
-[RNN (Recurrent Neural Network) Summary]()
+[RNN (Recurrent Neural Network) Summary](https://elegant-tern-afc.notion.site/RNN-Recurrent-Neural-Network-Summary-b7e877641753455b8312eee478c3abec)
 
 > 지난 2주간 RNN(Recureent Neural Network)에 도달하기 위한 학습 내용들 중, 핵심들만을 정리
 
