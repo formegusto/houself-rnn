@@ -6,7 +6,7 @@
 
 # 2. Data Structure
 
-![Untitled](In%20Weather%20Data%20Description%20ec16fab40b2c4613a805cc26e71a7bfd/Untitled.png)
+<img width="311" alt="스크린샷 2021-09-01 오후 1 50 08" src="https://user-images.githubusercontent.com/52296323/131616022-2bc6b830-c093-477e-a5fb-31fc0fc81989.png">
 
 - 다음과 같이 날짜별로 날씨 정보와 평균온도(avgTa) 평균습도(avgRhm)를 저장했다.
 - 기상청에서 제공해주는 날씨 데이터 중에서 날씨정보를 뜻하는 icsc는 다음과 같은 형태를 가지고 있었다.
