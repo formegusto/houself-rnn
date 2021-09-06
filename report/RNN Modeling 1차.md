@@ -18,7 +18,7 @@
 
 > **Data Structure After KMeans-Clustering**
 
-![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled.png)
+![](https://user-images.githubusercontent.com/52296323/132186264-b6df0035-910d-49ee-9b24-07dab0d79ee1.png)
 
 - 클러스터링 결과는 하나의 가구의 날짜별로 label로 붙여서 배열로 저장해놨었다.
 
@@ -73,7 +73,7 @@
 
    > **merging**
 
-   ![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled%201.png)
+   ![](https://user-images.githubusercontent.com/52296323/132186298-6fbd8a54-b236-4215-a230-6a56d471d1b7.png)
 
    - 이전에 kmeans 에서 했던 것 처럼 1시간 단위의 24개 timeslot으로 병합한다.
    - 이 과정에서 변화가 별로 없는 패턴, 1자로 이어지는 아웃라이어들은 제거한다.
@@ -119,7 +119,7 @@
 
    - 날씨는 자연어 계열에 속하기 때문에, 일반적으로 자연어를 정수인코딩 할 때 사용하는 방법인, 빈도수 체크 후 오름차순 정렬 후 인덱스 부여
 
-   ![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled%202.png)
+   ![](https://user-images.githubusercontent.com/52296323/132186334-ab5fa54e-d01b-438e-8f5c-8794b22ed59f.png)
 
    - 추가적으로 겨울이나 봄의 경우 영하 온도의 데이터를 가지고 있는데, 이는 훈련과정에서 에러를 일으키므로 전체적으로 제일 낮은 영하온도 만큼 올려준다.
 
@@ -233,7 +233,7 @@
 
 # 4. RNN Model First Test
 
-![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled%203.png)
+![](https://user-images.githubusercontent.com/52296323/132186386-b1a314bb-4a42-4d0c-8952-40d4c71579d8.png)
 
 - 가중치 업데이트 횟수는 400회를 주었다. 그리고 정확도는 98%를 기록하면서 마무리 했다.
 
@@ -256,13 +256,13 @@ for i in range(0, round(len(test_X) / 24)):
     test_predict.append(predict_pattern)
 ```
 
-![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled%204.png)
+![](https://user-images.githubusercontent.com/52296323/132186420-64335bc1-05ac-4400-8138-cdb41e68bca5.png)
 
-![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled%205.png)
+![](https://user-images.githubusercontent.com/52296323/132186427-57eea32c-4a1f-4d88-89fc-a0eba6b7adab.png)
 
-![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled%206.png)
+![](https://user-images.githubusercontent.com/52296323/132186434-5bfdf1b6-211a-4d85-86de-5eecaa75a27b.png)
 
-![Untitled](RNN%20Modeling%20bbb52a0ed76a4f049c3f32945586f60e/Untitled%207.png)
+![](https://user-images.githubusercontent.com/52296323/132186438-b63b030c-009b-46f3-9c17-44309555c117.png)
 
 - 그리고 왼쪽부터 차례대로 날짜, 날씨정보는 고정시킨채 1시간 정도의 실제 측정 값을 주었을 때, 5시간, 10시간, 15시간과 같이 예측에 실제 전력 측정 값이 얼마나 주어지느냐에 따른 결과를 지켜봤다. 파란색은 실제값, 빨간색은 예측값을 뜻한다.
 
