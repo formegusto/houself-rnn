@@ -26,11 +26,11 @@
 
 # 1. Compare Visualization Plot
 
-![Untitled](non-cluster-rnn-model%20vs%20cluster-rnn-model%2020ff9dc00e8949e7b91c0e17698da352/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52296323/132778896-9ffe0427-94df-4be3-96d8-b57e1290f253.png)
 
 non-cluster-rnn-model
 
-![Untitled](non-cluster-rnn-model%20vs%20cluster-rnn-model%2020ff9dc00e8949e7b91c0e17698da352/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/52296323/132778902-73440372-00d2-4630-99d5-b40dd63ad74d.png)
 
 cluster-rnn-model
 
@@ -40,7 +40,7 @@ cluster-rnn-model
 
 - 육안상으로는 평가가 힘들어서, 이들을 평가해줄 수 있는 어떠한 지표가 필요했는데, 여기서 euclidean-distance와 cosine similarity를 이용해서 두 모델의 실제 데이터와 예측 데이터의 거리와 방향의 유사도의 평균을 비교하는 표를 구성해봤다.
 
-![Untitled](non-cluster-rnn-model%20vs%20cluster-rnn-model%2020ff9dc00e8949e7b91c0e17698da352/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/52296323/132778906-f995f9cf-fefe-45f2-bcfd-641beb9cf6fc.png)
 
 - 해당 표의 power-info는 예측을 위해 해당 날짜에 실제 값이 어느정도 주어졌을 때의 정도를 나타낸다.
 
