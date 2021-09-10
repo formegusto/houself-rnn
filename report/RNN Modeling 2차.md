@@ -101,15 +101,13 @@ cluster_model.summary()
 
 # 6. RNN Model Second Test
 
-![Untitled](RNN%20Modeling%202%E1%84%8E%E1%85%A1%20729fd0ac0de347a0910ec214902cf39b/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52296323/132778798-f92325f2-56e0-4173-af2f-7e6206a03147.png)
 
 non-cluster RNN Model
 
-![Untitled](RNN%20Modeling%202%E1%84%8E%E1%85%A1%20729fd0ac0de347a0910ec214902cf39b/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/52296323/132778806-adce0ba6-2ab3-42be-b72b-cd8c47062eca.png)
 
 cluster RNN Model
 
 - 좌측은 첫번째 모델링했던 개별 패턴을 학습시킨 것이고, 우측은 이번에 새로 모델링한 클러스터링 라벨을 출력값으로 해서 학습시킨 결과이다.
 - 2개는 다른 가구의 결과물이어서 결과물 자체는 다르지만 패턴이 비슷한가를 놓고 봤을 때는 우측이 어느정도 따라갔다고 육안상으로 확인할 수 있었다.
-
-# 7. non-cluster-rnn-model vs cluster-rnn-model
